@@ -10,7 +10,7 @@ import java.io.File;
 public class SauceDemoTest {
 
     @Test
-    public void SauceDemo() throws InterruptedException {
+    public void SauceDemoTest() throws InterruptedException {
 
         ClassLoader classLoader = getClass().getClassLoader();
         File file = new File(classLoader.getResource("drivers/chromedriver.exe").getFile());
